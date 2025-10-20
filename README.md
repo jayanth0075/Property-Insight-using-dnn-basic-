@@ -126,7 +126,7 @@ This prevents overfitting and saves training time.
 ### 8️ Visualizing Results
 
 We plot graphs of **Loss vs Epochs** and **MAE vs Epochs** to see how well the model has learned.
-If both training and validation lines are close, the model is performing well.
+
 
 
 
@@ -134,4 +134,19 @@ If both training and validation lines are close, the model is performing well.
 
 After training, we test the model on unseen data.
 We use metrics like **R²**, **MSE**, and **MAE** to measure accuracy and reliability.
+The R^2 score is - 0.89
+The MSE score is - 820447218
+The Rmse score is - 28643
+
+### The Actual VS Predicted sales price are mentioned below 
+
+Actual SalePrice	Predicted SalePrice
+0	154500.0	153169.250000
+1	325000.0	330570.125000
+2	115000.0	92851.671875
+3	159000.0	159468.750000
+4	315500.0	352553.875000
+
+
+
 
